@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap');
+
+ *{
+  margin: 0;
+  padding: 0;
+}
+.hrosection{
+display: flex;
+justify-content: space-between;
+align-items: first baseline;
+gap: 5px;
+ font-family: "Manufacturing Consent", system-ui;
+}
+.herosection{
+  display: flex;
+ font-family: "Manufacturing Consent", system-ui;
+  gap: 20px;
+}
+nav ul li a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; 
+ flex-direction: row;
+ text-decoration: none;
+ display: flex;
+  gap: 30px;
+  list-style: none;
+ font-family: "Manufacturing Consent", system-ui;
+}
+li{
+  list-style-type: none;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: black;
+  color: white;
+   margin: 20px;
+   font-family: "Manufacturing Consent", system-ui;
+}
+
+.logo{
+ display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+   font-family: "Manufacturing Consent", system-ui;
+  
+}
+.herosection{
+  background-color: rgb(85, 82, 82);
+  display: flex;
+  height: 500px;
+   margin: 20px;
+   font-size: 50px;
+    font-family: "Manufacturing Consent", system-ui;
+}
+h1{
+   font-family: "Manufacturing Consent", system-ui;
+  color: rgb(20, 14, 13)
+}
+h2{
+  color: rgb(22, 15, 14);
+   font-family: "Manufacturing Consent", system-ui;
+}
+p{
+  color: rgb(19, 9, 9);
+   font-family: "Manufacturing Consent", system-ui;
+} 
+button :hover{
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  
+}
+.content button :hover{
+background-color: black;
+color: white;
+cursor: pointer;
+padding: 5px;
+ font-family: "Manufacturing Consent", system-ui;
+}
+button {
+  background-color: rgb(27, 16, 16);
+   font-family: "Manufacturing Consent", system-ui;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 1s ease;
+ 
+}
+.content{
+  filter: drop-shadow(0 0 10px black);
+}
+
+button:hover {
+  background-color: rgb(155, 9, 9);
+  cursor: pointer;
+}
+.parent{
+ padding: 10px 20px 10px 10px;
+ display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgb(53, 51, 51) ;
+margin: 40px;
+top: 100px;
+}
+.child{
+  width: 200px;
+  height: 200px;
+  padding: 20px 20px 20px 20px;
+  background-color: rgb(53, 51, 51);
+  margin: 50px;
+}
+/* footer */
+.footer {
+  background-color: #111;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  max-width: 300px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  color: #ffcc00;
+}
+
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #ffcc00;
+}
+
+  
