@@ -104,6 +104,7 @@ button {
 }
 .content{
   filter: drop-shadow(0 0 10px black);
+   font-family: "Manufacturing Consent", system-ui;
 }
 
 button:hover {
@@ -112,6 +113,7 @@ button:hover {
 }
 .parent{
  padding: 10px 20px 10px 10px;
+  font-family: "Manufacturing Consent", system-ui;
  display: flex;
 justify-content: center;
 align-items: center;
@@ -121,6 +123,7 @@ top: 100px;
 }
 .child{
   width: 200px;
+   font-family: "Manufacturing Consent", system-ui;
   height: 200px;
   padding: 20px 20px 20px 20px;
   background-color: rgb(53, 51, 51);
@@ -130,6 +133,7 @@ top: 100px;
 .footer {
   background-color: #111;
   color: white;
+   font-family: "Manufacturing Consent", system-ui;
   display: flex;
   justify-content: space-around;
   padding: 40px 20px;
@@ -139,20 +143,24 @@ top: 100px;
 .footer-section {
   max-width: 300px;
   margin: 10px;
+   font-family: "Manufacturing Consent", system-ui;
 }
 
 .footer-section h3 {
   margin-bottom: 15px;
-  color: #ffcc00;
+   font-family: "Manufacturing Consent", system-ui;
+  color: #ec0808;
 }
 
 .footer-section a {
   color: white;
+   font-family: "Manufacturing Consent", system-ui;
   text-decoration: none;
 }
 
 .footer-section a:hover {
-  color: #ffcc00;
+  color: #eff314;
+   font-family: "Manufacturing Consent", system-ui;
 }
 
   
